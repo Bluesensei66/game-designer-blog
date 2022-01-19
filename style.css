@@ -1,0 +1,605 @@
+body{
+    /*background-color: aqua;*/
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+   padding: 0;
+   line-height: 1.5rem;
+}
+h1{
+    font-family: 'Archivo Black', sans-serif;
+    color:white;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    padding:0;
+}
+h2{
+    color:#0F2B6A;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 1.5rem;
+}
+h3{
+    font-family: 'Archivo Black', sans-serif;
+    color:#F07C5F;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+h4{
+    color:white;
+    font-size: 0.8rem;
+}
+p{
+    letter-spacing: 0.05rem;
+    color:#F07C5F;
+}
+a{
+    text-decoration: none;
+    color:#F07C5F;
+}
+.gt{
+    padding-top: 1rem;
+    height: 1rem;
+    width: 100%;
+    text-align: center;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    background-color: #0F2B6A;
+    align-content: flex-end;
+    border-color: #0F2B6A;
+    border-width: 2px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+}
+.space{
+    height: 1rem;
+    width: 40%;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    background-color: #0F2B6A;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+}
+.nav-item{
+    width: 4rem;
+    text-decoration: none;
+    color: white;
+}
+.navbar-brand{
+    display:none;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+.icon{
+    background-color: #0F2B6A;
+}
+.navbar-toggler{
+    background-color: #0F2B6A;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: #0F2B6A;
+    height: 40rem;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-self: center;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    height: 15rem;
+    width: 20%;
+    justify-content: left;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-self: left;
+    text-align: left;
+    line-height: 1rem;
+}
+.photo{
+    height: 20rem;
+    width: 50%;
+    margin-left: 0;
+    margin-right: auto;
+    align-self: center;
+    text-align: center;
+}
+.portrait{
+    height: 20rem;
+    width: 20rem;
+}
+.st{
+    color:#F07C5F;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+}
+.rs{
+    display: flex;
+    flex-direction: row;
+    margin:1rem;
+    align-self: center;
+}
+.para{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 30rem;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-self: center;
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    width: 30%;
+    justify-content: left;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-self: left;
+    text-align: left; 
+    color:#F07C5F; 
+}
+.photo2{
+    height: 20rem;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    text-align: center;
+    /*background-color: #A3B4DB;*/
+    background-image: url('./img/spore.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.para2{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 30rem;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-self: center;
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    width: 30%;
+    justify-content: right;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-self: right;
+    text-align: left;  
+    color:#F07C5F;
+}
+.photo3{
+    height: 20rem;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    text-align: center;
+    /*background-color: #A3B4DB;*/
+    background-image: url('./img/civilization4.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.photo4{
+    height: 20rem;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    text-align: center;
+    /*background-color: #A3B4DB;*/
+    background-image: url('./img/menagerie.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.photo5{
+    height: 20rem;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    text-align: center;
+    /*background-color: #A3B4DB;*/
+    background-image: url('./img/poilus.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    background-color: #0F2B6A; 
+    justify-content: center;
+    color: white;
+    align-self: center;
+    text-align: center;
+}
+.cv1{
+    background-color: white;
+    height: 110rem;
+    width: 80%;
+    background-image: url("img/cv10.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+
+}
+.page{
+    background-color: white;
+    height: 130rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    text-align: center;
+    justify-content: center;  
+}
+.rapport{
+    height: 60rem;
+    width: 40rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+.po{
+    height:50rem;
+    width: 30rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+.port{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*----- accordeon-------*/
+.accordeon ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+    width : 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    }
+    
+    .accordeon ul li {
+    display:block;
+    overflow:hidden;
+    margin:0;
+    padding:0;
+    list-style:none;
+    width : 100%;
+    height:30px;
+    background-color: white;
+    border-radius:0px;
+    -moz-border-radius:0px;
+    -webkit-border-radius:7px;
+    transition:  height 1s ease-in-out;
+    -moz-transition:  height 1s ease-in-out;
+    -webkit-transition:  height 1s ease-in-out;
+    -o-transition:  height 1s ease-in-out;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    /*padding: 2rem;*/
+    }
+    
+    .accordeon ul li .titre {
+    display:block;
+    margin:0;
+    padding:10px;
+    height:19px;
+    border-bottom: whitesmoke 2px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:80%;
+    color:#F07C5F;
+    background: white;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    text-justify: auto;
+    padding: 2rem;
+    }
+    
+    .accordeon ul li div {
+    margin:0;
+    overflow:auto;
+    padding:10px;
+    height:30rem;
+    background: white;
+    color:#F07C5F;
+    padding:3rem;
+    line-height: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    text-justify: auto;
+    }
+    
+    .accordeon  ul li:hover {
+    height: 70rem;
+    }
+    
+    .accordeon:hover ul li .titre:hover {
+    color:#fff;
+    background:#F07C5F;
+    font-size:80%;
+    }
+    
+    .accordeon ul li .titre:hover {
+    cursor:pointer;
+    }
+/*
+ * Made by Erik Terwan
+ * 24th of November 2015
+ * MIT License
+ *
+ *
+ * If you are thinking of using this in
+ * production code, beware of the browser
+ * prefixes.
+ */
+
+ /*body
+ {
+   margin: 0;
+   padding: 0;
+   
+   /* make it look decent enough */
+   /*background: #232323;
+   color: #cdcdcd;
+   font-family: "Avenir Next", "Avenir", sans-serif;
+ }*/
+ .navigation{
+    background-color: #0F2B6A;
+}
+ #menuToggle
+ {
+   display: block;
+   position: relative;
+   top: 50px;
+   left: 50px;
+   
+   z-index: 1;
+   
+   -webkit-user-select: none;
+   user-select: none;
+ }
+ 
+ #menuToggle a
+ {
+   text-decoration: none;
+   color: #232323;
+   
+   transition: color 0.3s ease;
+ }
+ 
+ #menuToggle a:hover
+ {
+   color: tomato;
+ }
+ 
+ 
+ #menuToggle input
+ {
+   display: block;
+   width: 40px;
+   height: 32px;
+   position: absolute;
+   top: -7px;
+   left: -5px;
+   
+   cursor: pointer;
+   
+   opacity: 0; /* hide this */
+   z-index: 2; /* and place it over the hamburger */
+   
+   -webkit-touch-callout: none;
+ }
+ 
+ /*
+  * Just a quick hamburger
+  */
+ #menuToggle span
+ {
+   display: block;
+   width: 33px;
+   height: 4px;
+   margin-bottom: 5px;
+   position: relative;
+   
+   background: #cdcdcd;
+   border-radius: 3px;
+   
+   z-index: 1;
+   
+   transform-origin: 4px 0px;
+   
+   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+               opacity 0.55s ease;
+ }
+ 
+ #menuToggle span:first-child
+ {
+   transform-origin: 0% 0%;
+ }
+ 
+ #menuToggle span:nth-last-child(2)
+ {
+   transform-origin: 0% 100%;
+ }
+ 
+ /* 
+  * Transform all the slices of hamburger
+  * into a crossmark.
+  */
+ #menuToggle input:checked ~ span
+ {
+   opacity: 1;
+   transform: rotate(45deg) translate(-2px, -1px);
+   background: #232323;
+ }
+ 
+ /*
+  * But let's hide the middle one.
+  */
+ #menuToggle input:checked ~ span:nth-last-child(3)
+ {
+   opacity: 0;
+   transform: rotate(0deg) scale(0.2, 0.2);
+ }
+ 
+ /*
+  * Ohyeah and the last one should go the other direction
+  */
+ #menuToggle input:checked ~ span:nth-last-child(2)
+ {
+   transform: rotate(-45deg) translate(0, -1px);
+ }
+ 
+ /*
+  * Make this absolute positioned
+  * at the top left of the screen
+  */
+ #menu
+ {
+   position: absolute;
+   width: 300px;
+   margin: -100px 0 0 -50px;
+   padding: 50px;
+   padding-top: 125px;
+   
+   background: #ededed;
+   list-style-type: none;
+   -webkit-font-smoothing: antialiased;
+   /* to stop flickering of text in safari */
+   
+   transform-origin: 0% 0%;
+   transform: translate(-100%, 0);
+   
+   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+ }
+ 
+ #menu li
+ {
+   padding: 10px 0;
+   font-size: 22px;
+ }
+ 
+ /*
+  * And let's slide it in from the left
+  */
+ #menuToggle input:checked ~ ul
+ {
+   transform: none;
+ }
+@media only screen and (max-width: 768px){
+    h1{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    .header{
+        flex-direction: column-reverse;
+        height: 40rem;
+    }
+    .text{
+        height: 15rem;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        line-height: 1rem;
+    }
+    .photo{
+        height: 12rem;
+        width: 70%;
+        margin: auto;
+        align-self: center;
+        text-align: center;
+    }
+    .portrait{
+        height: 15rem;
+        width: 15rem;
+    }
+    .para{
+        flex-direction: column-reverse;
+        height: 45rem;
+    }
+    .para2{
+        flex-direction: column;
+        height: 45rem;
+    }
+    .text1{
+        width: 80%;
+        height: 30rem;
+        text-align: center;
+        margin:auto;
+    }
+    .photo2{
+        width: 100%;
+        text-align: center;
+        margin:auto;
+        background-size: cover;
+    }
+    .text2{
+        height: 30rem;
+        width: 80%;
+        text-align: center;
+        margin:auto;
+    }
+    .photo3{
+        width: 100%;
+        text-align: center;
+        margin:auto;
+        background-size: cover;
+    }
+    .photo4{
+        width: 100%;
+        text-align: center;
+        margin:auto;
+        background-size: cover;
+    }
+    .photo5{
+        width: 100%;
+        text-align: center;
+        margin:auto;
+        background-size: cover;
+    }
+    .cv1{
+        height: 45rem;
+        width: 90%;
+
+    }
+    .page{
+        height: 50rem;
+        width: 100%;
+        margin-top: 4rem;
+    }
+}
