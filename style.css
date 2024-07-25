@@ -678,11 +678,30 @@ tomato;
         margin:auto;
         background-size: cover;
     }
+    .photo6{
+        width: 100%;
+        text-align: center;
+        margin:auto;
+        background-size: cover;
+    }
+    .photo7{
+        width: 100%;
+        text-align: center;
+        margin:auto;
+        background-size: cover;
+    }
+    .photo8{
+        width: 100%;
+        text-align: center;
+        margin:auto;
+        background-size: cover;
+    }
     .photo9{
     height: 20rem;
     width: 40%;
     margin-left: auto;
     margin-right: auto;
+    padding-top:1rem;
     align-self: center;
     text-align: center;
     /*background-color: #A3B4DB;*/
